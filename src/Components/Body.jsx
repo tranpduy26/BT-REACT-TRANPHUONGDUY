@@ -79,7 +79,7 @@ export default class UngDungChonKinh extends Component {
           <img className="img-fluid" src="./glassesImage/model.jpg" />
           <div
             className="glasses d-flex justify-content-center"
-            style={{ position: "absolute", top: "25%" }}
+            style={{ position: "absolute", top: "22%", left: "40%" }}
           >
             <img src={this.state.imageUrl} style={{ maxWidth: "70%" }} />
           </div>
