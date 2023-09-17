@@ -1,0 +1,72 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.background {
+	width: 100%;
+	min-height: 100vh;
+	background: url("../../public/bgmovie.jpg") center /
+		cover no-repeat;
+	position: fixed;
+	z-index: -999;
+	top: 0;
+}
+
+.overlay {
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+.screen {
+	position: relative;
+	top: -60px;
+	width: 90%;
+	height: 100px;
+	border-bottom: 40px solid rgb(255, 159, 95);
+	border-left: 40px solid transparent;
+	border-right: 40px solid transparent;
+	filter: drop-shadow(4px 30px 20px rgba(255, 255, 255, 0.5));
+}
+
+.check {
+	display: inline-block;
+	width: 40px;
+	height: 25px;
+	margin-bottom: 15px;
+	margin-right: 10px;
+	border-radius: 3px;
+	border: none;
+	outline: none;
+	cursor: inherit !important;
+}
+
+tr,
+td,
+th {
+	border: 1px solid #888;
+}
+
+.seats {
+	position: relative;
+	top: -50px;
+	max-height: 500px;
+}
+
+.seat {
+	width: 40px;
+	height: 40px;
+	font-size: 16px;
+	font-weight: bolder;
+	border: 2px solid #090700;
+	border-radius: 3px;
+	outline: none;
+}
+
+.booking-seat {
+	background: #ffc107;
+	cursor: not-allowed !important;
+}
