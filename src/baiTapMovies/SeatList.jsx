@@ -11,7 +11,7 @@ const SeatList = () => {
         style={{ letterSpacing: "2px" }}
         className="text-center text-warning fs-2 fw-bolder"
       >
-        BOOKING TICKETS "MARVEL - IRON MAN"
+        BOOKING TICKETS "ĐẠI CHIẾN THÁI BÌNH DƯƠNG"
       </h1>
       <h5 className="text-center text-white fw-bolder">Màn Hình Chiếu</h5>
       <div className="d-flex justify-content-center">

@@ -4,7 +4,6 @@ import cn from "classnames";
 
 const SeatItem = ({ rowSeat }) => {
   const { bookedList } = useSelector((state) => state.seats);
-  console.log(bookedList);
 
   const dispatch = useDispatch();
 
